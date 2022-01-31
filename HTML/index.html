@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="SVGs/favicon.svg" sizes="any" type="image/svg+xml">
+    <link rel="stylesheet" href="app.css">
+    <title>Apple UI Clone</title>
+</head>
+
+<body>
+    <header>
+        <!-- Navbar Desktop -->
+        <nav id="navbar-desktop">
+            <ul>
+                <li><a href="#"><svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                            width="16" height="44" viewBox="0 0 16 44">
+                            <path
+                                d="M8.02 16.23c-.73 0-1.86-.83-3.05-.8-1.57.02-3.01.91-3.82 2.32-1.63 2.83-.42 7.01 1.17 9.31.78 1.12 1.7 2.38 2.92 2.34 1.17-.05 1.61-.76 3.03-.76 1.41 0 1.81.76 3.05.73 1.26-.02 2.06-1.14 2.83-2.27.89-1.3 1.26-2.56 1.28-2.63-.03-.01-2.45-.94-2.48-3.74-.02-2.34 1.91-3.46 2-3.51-1.1-1.61-2.79-1.79-3.38-1.83-1.54-.12-2.83.84-3.55.84zm2.6-2.36c.65-.78 1.08-1.87.96-2.95-.93.04-2.05.62-2.72 1.4-.6.69-1.12 1.8-.98 2.86 1.03.08 2.09-.53 2.74-1.31"
+                                fill="#fff" />
+                        </svg></a></li>
+                <li><a href="#">Store</a></li>
+                <li><a href="#">Mac</a></li>
+                <li><a href="#">iPad</a></li>
+                <li><a href="#">iPhone</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">TV</a></li>
+                <li><a href="#">Music</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#"><svg fill="#C8C8C8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="25"
+                            height="88">
+                            <path fill="none" stroke="#C8C8C8" stroke-miterlimit="10" stroke-width="2"
+                                d="M13 4A9 9 0 1 0 13 22A9 9 0 1 0 13 4Z" />
+                            <path fill="none" stroke="#C8C8C8" stroke-linecap="round" stroke-miterlimit="10"
+                                stroke-width="2" d="M26 26L19.437 19.437" />
+                        </svg></a></li>
+                <li><a href="#"><svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                            id="Layer_1" data-name="Layer 1" viewBox="0 0 17 44" width="17" height="44">
+                            <defs>
+                                <style>
+                                    .cls-1 {
+                                        fill: none;
+                                    }
+
+                                    .cls-2 {
+                                        fill: #fff;
+                                    }
+                                </style>
+                            </defs>
+
+                            <g id="bag_large">
+                                <rect id="boundingbox" class="cls-1" width="17" height="44" />
+                                <path id="bag" class="cls-2"
+                                    d="M14.5,14H12.712a4.227,4.227,0,0,0-8.424,0H2.5A2.5,2.5,0,0,0,0,16.5v11A2.5,2.5,0,0,0,2.5,30h12A2.5,2.5,0,0,0,17,27.5v-11A2.5,2.5,0,0,0,14.5,14Zm-6-2.875A3.243,3.243,0,0,1,11.712,14H5.288A3.243,3.243,0,0,1,8.5,11.125ZM16,27.5A1.5,1.5,0,0,1,14.5,29H2.5A1.5,1.5,0,0,1,1,27.5v-11A1.5,1.5,0,0,1,2.5,15h12A1.5,1.5,0,0,1,16,16.5Z" />
+                            </g>
+                        </svg></a></li>
+
+            </ul>
+        </nav>
+        <!-- Navbar Mobile -->
+        <nav id="navbar-mobile">
+            <ul id="nav-list-mobile">
+                <li>
+                    <div id="mobile-menu">
+                        <span class="line line-top"></span>
+                        <span class="line line-bottom"></span>
+
+
+                    </div>
+                </li>
+                <li><a href="#"><svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                            width="16" height="44" viewBox="0 0 16 44">
+                            <path
+                                d="M8.02 16.23c-.73 0-1.86-.83-3.05-.8-1.57.02-3.01.91-3.82 2.32-1.63 2.83-.42 7.01 1.17 9.31.78 1.12 1.7 2.38 2.92 2.34 1.17-.05 1.61-.76 3.03-.76 1.41 0 1.81.76 3.05.73 1.26-.02 2.06-1.14 2.83-2.27.89-1.3 1.26-2.56 1.28-2.63-.03-.01-2.45-.94-2.48-3.74-.02-2.34 1.91-3.46 2-3.51-1.1-1.61-2.79-1.79-3.38-1.83-1.54-.12-2.83.84-3.55.84zm2.6-2.36c.65-.78 1.08-1.87.96-2.95-.93.04-2.05.62-2.72 1.4-.6.69-1.12 1.8-.98 2.86 1.03.08 2.09-.53 2.74-1.31"
+                                fill="#fff" />
+                        </svg></a></li>
+                <li><a href="#"><svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                            id="bag" data-name="Layer 1" viewBox="0 0 17 44" width="17" height="44">
+                            <defs>
+                                <style>
+                                    .cls-1 {
+                                        fill: none;
+                                    }
+
+                                    .cls-2 {
+                                        fill: #fff;
+                                    }
+                                </style>
+                            </defs>
+
+                            <g id="bag_large">
+                                <rect id="boundingbox" class="cls-1" width="17" height="44" />
+                                <path id="bag" class="cls-2"
+                                    d="M14.5,14H12.712a4.227,4.227,0,0,0-8.424,0H2.5A2.5,2.5,0,0,0,0,16.5v11A2.5,2.5,0,0,0,2.5,30h12A2.5,2.5,0,0,0,17,27.5v-11A2.5,2.5,0,0,0,14.5,14Zm-6-2.875A3.243,3.243,0,0,1,11.712,14H5.288A3.243,3.243,0,0,1,8.5,11.125ZM16,27.5A1.5,1.5,0,0,1,14.5,29H2.5A1.5,1.5,0,0,1,1,27.5v-11A1.5,1.5,0,0,1,2.5,15h12A1.5,1.5,0,0,1,16,16.5Z" />
+                            </g>
+                        </svg></a></li>
+
+            </ul>
+            <ul id="nav-list">
+                <input type="text" id="search" placeholder="Search apple.com">
+                <div id="border"></div>
+                <li><a href="#">Store</a></li>
+                <li><a href="#">Mac</a></li>
+                <li><a href="#">iPad</a></li>
+                <li><a href="#">iPhone</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">TV</a></li>
+                <li><a href="#">Music</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div id="info">
+        <p>We look forward to welcoming you to our stores. Whether you <a href="#">shop in a store</a> or <a
+                href="#">shop online,</a> our Specialists can help you buy the products you love.</p>
+
+    </div>
+    <section id="iphone-13-pro">
+
+        <div id="title">
+            <h1>iPhone 13 Pro</h1>
+            <h3>Oh. So. Pro</h3>
+
+        </div>
+        <div id="title-links">
+            <a href="#">Learn more &rsaquo;</a>
+            <a href="#">Buy &rsaquo;</a>
+        </div>
+
+
+    </section>
+    <section id="iphone-13">
+
+        <div id="title">
+            <h1>iPhone 13</h1>
+            <h3>Your new superpower.</h3>
+
+
+        </div>
+        <div id="title-links">
+            <a href="#">Learn more &rsaquo;</a>
+            <a href="#">Buy &rsaquo;</a>
+        </div>
+
+
+    </section>
+    <section id="apple-watch">
+
+        <div id="title">
+            <h1><img src="Images/watch-logo.png" alt=""></h1>
+            <h3>Full screen ahead.</h3>
+            <h4>Available starting 10.15</p>
+
+        </div>
+        <div id="title-links">
+            <a href="#">Learn more &rsaquo;</a>
+            <a href="#">Order Now &rsaquo;</a>
+
+        </div>
+
+
+    </section>
+    <section id="card">
+        <div id="card-0">
+            <div id="back-to-school">
+                <div id="title">
+                    <p>Offer Ends 9/27</p>
+                    <h4>Buy a Mac or iPad for college. Get AirPods.&sup1;</h4>
+                </div>
+                <div id="title-links">
+                    <a href="#">Save with education pricing &rsaquo;</a>
+
+                </div>
+
+
+
+            </div>
+            <div id="ipad-mini">
+                <div id="title">
+                    <h1><img src="Images/ipad-mini.png" alt=""></h1>
+                    <h3>Mega power. Mini sized.</h3>
+
+                </div>
+                <div id="title-links">
+                    <a href="#">Learn more &rsaquo;</a>
+                    <a href="#">Order &rsaquo;</a>
+
+                </div>
+
+
+            </div>
+
+        </div>
+        <div id="card-1">
+            <div id="imac">
+
+                <div id="title">
+                    <h2>iMac</h2>
+                    <h3>Say hello</h3>
+                </div>
+                <div id="title-links">
+                    <a href="#">Learn more &rsaquo;</a>
+                    <a href="#">Buy &rsaquo;</a>
+
+                </div>
+
+
+
+            </div>
+            <div id="apple-fitness">
+
+                <div id="title">
+                    <h1><img src="Images/fitness-logo.png" alt=""></h1>
+                    <h3>Pilates, Group Workouts, and guided Meditation coming soon.</h3>
+
+
+                </div>
+                <div id="title-links">
+                    <a href="#">Learn more &rsaquo;</a>
+                    <a href="#">Try it free&sup2; &nearr;</a>
+
+                </div>
+
+
+            </div>
+
+        </div>
+        <div id="card-2">
+            <div id="apple-card">
+
+                <div id="title">
+                    <h1><img src="Images/card-logo.png" alt=""></h1>
+                    <h3>Get up to 3% Daily Cash back with very purchase</h3>
+                </div>
+                <div id="title-links">
+                    <a href="#">Learn more &rsaquo;</a>
+                    <a href="#">Apply now &rsaquo;</a>
+
+                </div>
+
+
+
+            </div>
+            <div id="apple-tv">
+
+                <div id="title">
+                    <h1><img src="Images/tv-logo.png" alt=""></h1>
+                    <div>
+                        <h3><img src="Images/foundation-logo.png" alt=""></h3>
+                        <div id="stream">
+                            <a href="#">Stream the first episode free</a><svg version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18"
+                                height="15" viewBox="0 0 16 16">
+                                <path fill="#0071e3"
+                                    d="M8 0c-4.4 0-8 3.6-8 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zM6 12v-8l6 4-6 4z"></path>
+                            </svg>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+    <footer id="footer">
+        <div id="footer-wrap">
+            <ul>
+                <li>1. SharePlay coming soon. An Apple Fitness+ subscription is required for all participants in a
+                    SharePlay Group Workout.
+                    ​​Apple Fitness+ requires iOS 14.3 or later, iPadOS 14.3 or later, watchOS 7.2 or later, and tvOS
+                    14.3 or later. To get
+                    the newest features, use Apple Fitness+ with Apple Watch Series 3 or later, with watchOS 8 paired
+                    with iPhone 6s or
+                    later with iOS 15, iPad with iPadOS 15, Apple TV 4K or Apple TV HD with tvOS 15.
+                </li>
+                <li>
+                    2. $9.99/month after free trial. No commitment. Plan automatically renews after trial until
+                    cancelled.
+                </li>
+                <li>To access and use all the features of Apple Card, you must add Apple Card to Wallet on an iPhone or
+                    iPad with the latest
+                    version of iOS or iPadOS. Update to the latest version by going to Settings > General > Software
+                    Update. Tap Download
+                    and Install.</li>
+                <li>Available for qualifying applicants in the United States.</li>
+                <li>Apple Card is issued by Goldman Sachs Bank USA, Salt Lake City Branch.</li>
+                <li>Learn more about how Apple Card applications are evaluated at support.apple.com/kb/HT209218.</li>
+                <li>Apple TV+ is $4.99/month after free trial. One subscription per Family Sharing group. Offer good for
+                    3 months after
+                    eligible device activation. Plan automatically renews until cancelled. Restrictions and other terms
+                    apply.</li>
+            </ul>
+            <div id="footer-links-mobile">
+                <div id="footer-menu">
+                    <div id="footer-links-column">
+                        <div id="item">
+                            <input type="checkbox" id="shop-and-learn">
+                            <div id="column-section">
+                                <label for="shop-and-learn">
+                                    <h3>Shop and Learn</h3>
+                                </label>
+                                <ul id="product-list">
+                                    <li><a href="#">Mac</a></li>
+                                    <li><a href="#">iPad</a></li>
+                                    <li><a href="#">iPhone</a></li>
+                                    <li><a href="#">Watch</a></li>
+                                    <li><a href="#">TV</a></li>
+                                    <li><a href="#">Music</a></li>
+                                    <li><a href="#">Airpods</a></li>
+                                    <li><a href="#">HomePod</a></li>
+                                    <li><a href="#">iPod touch</a></li>
+                                    <li><a href="#">AirTag</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Gift Cards</a></li>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                    <div id="footer-links-column">
+                        <div id="item">
+                            <input type="checkbox" id="services">
+                            <div id="column-section">
+                                <label for="services">
+                                    <h3>Services</h3>
+                                </label>
+                                <ul id="product-list">
+                                    <li><a href="#">Apple Music</a></li>
+                                    <li><a href="#">Apple TV+</a></li>
+                                    <li><a href="#">Apple Fitness+</a></li>
+                                    <li><a href="#">Apple News+</a></li>
+                                    <li><a href="#">Apple Arcade</a></li>
+                                    <li><a href="#">iCloud</a></li>
+                                    <li><a href="#">Apple One</a></li>
+                                    <li><a href="#">Apple Card</a></li>
+                                    <li><a href="#">Apple Books</a></li>
+                                    <li><a href="#">Apple Podcasts</a></li>
+                                    <li><a href="#">Apple Store</a></li>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                    <div id="footer-links-column">
+                        <div id="item">
+                            <input type="checkbox" id="account">
+                            <div id="column-section">
+                                <label for="account">
+                                    <h3>Account</h3>
+                                </label>
+                                <ul id="product-list">
+                                    <li><a href="#">Manage your Apple ID</a></li>
+                                    <li><a href="#">Apple Store Account</a></li>
+                                    <li><a href="#">iCloud.com</a></li>
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+
+
+                    </div>
+                    <div id="footer-links-column">
+                        <div id="item">
+                            <input type="checkbox" id="apple-store">
+                            <div id="column-section">
+                                <label for="apple-store">
+                                    <h3>Apple Store</h3>
+                                </label>
+                                <ul id="product-list">
+                                    <li><a href="#">Find a Store</a></li>
+                                    <li><a href="#">Shop Online</a></li>
+                                    <li><a href="#">Genius Bar</a></li>
+                                    <li><a href="#">Today at Apple</a></li>
+                                    <li><a href="#">Apple Camp</a></li>
+                                    <li><a href="#">Apple Store App</a></li>
+                                    <li><a href="#">Refurbished and Clearance</a></li>
+                                    <li><a href="#">Financing</a></li>
+                                    <li><a href="#">Apple Trade In</a></li>
+                                    <li><a href="#">Order Status</a></li>
+                                    <li><a href="#">Shopping Help</a></li>
+                            </div>
+
+
+
+
+                        </div>
+
+
+
+
+                    </div>
+                    <div id="footer-links-column">
+                        <div id="item">
+                            <input type="checkbox" id="for-business">
+                            <div id="column-section">
+                                <label for="for-business">
+                                    <h3>For Business</h3>
+                                </label>
+                                <ul id="product-list">
+                                    <li><a href="#">Apple and Business</a></li>
+                                    <li><a href="#">Shop for Business</a></li>
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+
+
+                    </div>
+                    <div id="footer-links-column">
+                        <div id="item">
+                            <input type="checkbox" id="for-eduation">
+                            <div id="column-section">
+                                <label for="for-eduation">
+                                    <h3>For Education</h3>
+                                </label>
+                                <ul id="product-list">
+                                    <li><a href="#">Apple and Education</a></li>
+                                    <li><a href="#">Shop for K-12</a></li>
+                                    <li><a href="#">Shop for College</a></li>
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+
+
+                    </div>
+                    <div id="footer-links-column">
+                        <div id="item">
+                            <input type="checkbox" id="for-healthcare">
+                            <div id="column-section">
+                                <label for="for-healthcare">
+                                    <h3>For Healthcare</h3>
+                                </label>
+                                <ul id="product-list">
+                                    <li><a href="#">Apple in Healthcare</a></li>
+                                    <li><a href="#">Health on Apple Watch</a></li>
+                                    <li><a href="#">Health Records on iPhone</a></li>
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+
+
+                    </div>
+                    <div id="footer-links-column">
+                        <div id="item">
+                            <input type="checkbox" id="for-government">
+                            <div id="column-section">
+                                <label for="for-government">
+                                    <h3>For Government</h3>
+                                </label>
+                                <ul id="product-list">
+                                    <li><a href="#">Shop for Government</a></li>
+                                    <li><a href="#">Shop for Veterans and Military</a></li>
+
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+
+
+                    </div>
+                    <div id="footer-links-column">
+                        <div id="item">
+                            <input type="checkbox" id="apple-values">
+                            <div id="column-section">
+                                <label for="apple-values">
+                                    <h3>Apple Values</h3>
+                                </label>
+                                <ul id="product-list">
+                                    <li><a href="#">Accessibility</a></li>
+                                    <li><a href="#">Education</a></li>
+                                    <li><a href="#">Environment</a></li>
+                                    <li><a href="#">Inclusion and Diversity</a></li>
+                                    <li><a href="#">Privacy</a></li>
+                                    <li><a href="#">Racial Equity and Justice</a></li>
+                                    <li><a href="#">Supplier Responsibility</a></li>
+
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+
+
+                    </div>
+                    <div id="footer-links-column">
+                        <div id="item">
+                            <input type="checkbox" id="about-apple">
+                            <div id="column-section">
+                                <label for="about-apple">
+                                    <h3>About Apple</h3>
+                                </label>
+                                <ul id="product-list">
+                                    <li><a href="#">Newsroom</a></li>
+                                    <li><a href="#">Apple Leadership</a></li>
+                                    <li><a href="#">Career Opportunities</a></li>
+                                    <li><a href="#">Investors</a></li>
+                                    <li><a href="#">Ethics and Compliance</a></li>
+                                    <li><a href="#">Events</a></li>
+                                    <li><a href="#">Contact Apple</a></li>
+
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+
+
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+
+
+            </div>
+            <div id="footer-links">
+                <div id="footer-links-column">
+                    <div id="footer-links-column-title">
+                        Shop and Learn
+                    </div>
+                    <a href="#" id="link">Mac</a>
+                    <a href="#" id="link">iPad</a>
+                    <a href="#" id="link">iPhone</a>
+                    <a href="#" id="link">Watch</a>
+                    <a href="#" id="link">TV</a>
+                    <a href="#" id="link">Music</a>
+                    <a href="#" id="link">AirPods</a>
+                    <a href="#" id="link">HomePod</a>
+                    <a href="#" id="link">iPod touch</a>
+                    <a href="#" id="link">AirTag</a>
+                    <a href="#" id="link">Accessories</a>
+                    <a href="#" id="link">Gift Cards</a>
+
+                </div>
+                <div id="footer-links-column">
+                    <div id="footer-links-column-title">Services</div>
+                    <a href="#">Apple Music</a>
+                    <a href="#">Apple TV+</a>
+                    <a href="#">Apple Fitness+</a>
+                    <a href="#">Apple News+</a>
+                    <a href="#">Apple Arcade</a>
+                    <a href="#">iCloud</a>
+                    <a href="#">Apple One</a>
+                    <a href="#">Apple Card</a>
+                    <a href="#">Apple Books</a>
+                    <a href="#">Apple Podcasts</a>
+                    <a href="#">Apple Store</a>
+                    <a href="#">Gift Cards</a>
+                    <div id="footer-links-column">
+                        <div id="footer-links-column-title">Account</div>
+                        <a href="#">Manage Your Apple ID</a>
+                        <a href="#">Apple Store Account</a>
+                        <a href="#">iCloud.com</a>
+
+
+                    </div>
+
+
+                </div>
+                <div id="footer-links-column">
+                    <div id="footer-links-column-title">Apple Store</div>
+                    <a href="#">Find a Store</a>
+                    <a href="#">Shop Online</a>
+                    <a href="#">Genius Bar</a>
+                    <a href="#">Today at Apple</a>
+                    <a href="#">Apple Camp</a>
+                    <a href="#">Apple Store App</a>
+                    <a href="#">Refurbished and Clearance</a>
+                    <a href="#">Financing</a>
+                    <a href="#">Apple Trade In</a>
+                    <a href="#">Order Status</a>
+                    <a href="#">Shopping Help</a>
+
+
+                </div>
+                <div id="footer-links-column">
+                    <div id="footer-links-column-title">For Business</div>
+                    <a href="#">Apple and Business</a>
+                    <a href="#">Shop for Business</a>
+
+                    <div id="footer-links-column">
+                        <div id="footer-links-column-title">For Education</div>
+                        <a href="#">Apple and Education</a>
+                        <a href="#">Shop for K-12</a>
+                        <a href="#">Shop for College</a>
+
+
+                    </div>
+                    <div id="footer-links-column">
+                        <div id="footer-links-column-title">For Healthcare</div>
+                        <a href="#">Apple in Healthcare</a>
+                        <a href="#">Health on Apple Watch</a>
+                        <a href="#">Health Records on iPhone</a>
+
+
+                    </div>
+                    <div id="footer-links-column">
+                        <div id="footer-links-column-title">For Government</div>
+                        <a href="#">Shop for Government</a>
+                        <a href="#">Shop for Veterans and Military</a>
+
+
+                    </div>
+
+
+                </div>
+                <div id="footer-links-column">
+
+                    <div id="footer-links-column-title">
+                        Apple Values
+                    </div>
+                    <a href="#">Accessibility</a>
+                    <a href="#">Educatio</a>
+                    <a href="#">Environment</a>
+                    <a href="#">Inclusion and Diversity</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Racial Equity and Justice</a>
+                    <a href="#">Supplier Responsibility</a>
+
+                    <div id="footer-links-column">
+                        <div id="footer-links-column-title">About Apple</div>
+                        <a href="#">Newsroom</a>
+                        <a href="#">Apple Leadership</a>
+                        <a href="#">Career Opportunities</a>
+                        <a href="#">Investors</a>
+                        <a href="#">Ethics and Compliance</a>
+                        <a href="#">Events</a>
+                        <a href="#">Contact Apple</a>
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div id="more-ways">
+                More ways to shop: <a href="#">Find an Apple Store</a> or <a href="#">other retailer</a>
+                near you. Or
+                call 1-800-MY-APPLE.
+
+            </div>
+            <div id="copyright">
+                <p>Copyright © 2021 Apple Inc. All rights reserved.</p>
+                <div id="links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Sales and Refunds</a>
+                    <a href="#">Site Map</a>
+                </div>
+                <a>United States</a>
+
+            </div>
+            <div id="copyright-mobile">
+                <div>
+                    <p>Copyright © 2021 Apple Inc. All rights reserved.</p>
+                    <a>United States</a>
+
+
+                </div>
+                <div id="links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Sales and Refunds</a>
+                    <a href="#">Site Map</a>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+    </footer>
+
+
+</body>
+<script src="script.js">
+
+</script>
+
+</html>

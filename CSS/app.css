@@ -1,0 +1,1187 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    min-width: 500px;
+    max-width: 100%;
+    overflow-x: hidden;
+    
+}
+
+body{
+    font-family: "SF Pro Text",-apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 14px;
+    min-width: 500px;
+    max-width: 100%;
+    
+  
+}
+header #navbar-desktop{
+    width: 100%;
+    height: 45px;
+    background: rgba(0, 0, 0,0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    backdrop-filter: blur(2rem);
+  
+}
+#navbar-desktop ul{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+   
+
+}
+#navbar-mobile{
+    display: none;
+}
+#navbar-desktop ul li{
+    cursor: pointer;
+    list-style: none;
+   
+}
+#navbar-desktop ul li a {
+     text-decoration: none;
+     color:#B8B8B8;
+}
+#navbar-desktop ul li a:hover{
+    color: #fff;
+}
+#info{
+    height: 45px;
+    width: 100%;
+    background-color:rgb(245, 245, 247);
+    text-align: center;
+    margin-top: 45px;
+    padding-top: 15px;
+    
+}
+#info a {
+    color: #0071e3;
+    text-decoration: none;
+   
+    
+}
+#info a:hover{
+    text-decoration: underline;
+}
+#iphone-13-pro{
+    height: 740px;
+    width: 100%;
+    margin-bottom: -80px;
+    background: url(Images/iphone-13-pro.jpeg) center/cover no-repeat;
+    background-position-y: -90px;
+   
+}
+
+#iphone-13-pro #title{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    z-index: 3;
+
+}
+#title h1{
+    font-size: 55px;
+    letter-spacing: -2px;
+
+}
+#title h3{
+    margin-top: 3px;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+#iphone-13-pro #title-links{
+    position: relative;
+    top: 50px;
+    margin-top: 18px;
+    margin-bottom: -500px;
+    text-align: center;
+    z-index: 3;
+}
+#title-links a{
+    font-size: 21px;
+    text-decoration: none;
+    color:#0071e3 ;
+}
+#title-links a:hover{
+    text-decoration: underline;
+}
+#title-links a:nth-of-type(2){
+    margin-left: 30px;
+}
+#iphone-13{
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: -35px;
+    background: url(Images/iphone-13.jpeg) center/cover no-repeat;
+}
+
+#iphone-13 #title{
+    margin-top: 52px;
+    text-align: center;
+    z-index: 3;
+    color: white;
+}
+#iphone-13 #title h3{
+    color: #fec2eb;
+   
+}
+
+#iphone-13 #title-links{
+    margin-top: 15px;
+    text-align: center;
+}
+#apple-watch{
+    height: 720px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 17px;
+     background: url(Images/apple-watch.jpeg) center/cover no-repeat;
+}
+
+#apple-watch #title{
+    margin-top: 90px;
+    text-align: center;
+    z-index: 3;
+   
+}
+#apple-watch #title h4{
+   margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(134, 134, 139);
+ 
+}
+
+#apple-watch #title-links{
+    text-align: center;
+    margin-top: 15px;
+}
+
+#card{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#card-0{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 99%;
+    margin-bottom: -100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#back-to-school{
+    height: 550px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    background: url(Images/bts-last-dance.jpeg) center/cover no-repeat;
+    margin-right: 10px;
+
+    
+
+}
+#back-to-school #title{
+    margin-top: 40px;
+}
+#back-to-school #title p{
+    color: rgb(191, 72, 0);
+    font-size: 22px;
+}
+#back-to-school #title h4{
+    font-size: 40px;
+    color: black;
+    width: 50%;
+    display: inline-block;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+#ipad-mini{
+   height: 550px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    background: url(Images/ipad-mini.jpeg) center/cover no-repeat;
+
+}
+
+#ipad-mini #title{
+    margin-top: 20px;
+}
+#ipad-mini #title h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#ipad-mini #title-links a{
+    font-size: 19px;
+    
+}
+#card-1{
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 99%;
+    margin-bottom: -100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+   
+}
+#imac{
+    height: 550px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+     background: url(Images/imac.jpeg) center/cover no-repeat;
+     margin-right: 10px;
+}
+
+
+#imac #title{
+    margin-top: 50px;
+}
+#imac #title h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+#imac #title h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 6px;
+}
+#imac #title-links a{
+    font-size: 16px;
+}
+#apple-fitness{
+    height: 550px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    background: url(Images/apple-fitness.jpeg) center/cover no-repeat;
+
+}
+
+#apple-fitness #title{
+    margin-top: 30px;
+}
+#apple-fitness #title h3{
+    font-size: 18px;
+    width: 30%;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+#apple-fitness #title-links a{
+    font-size: 16px;
+}
+#card-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 99%;
+    margin-bottom: -100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+}
+#apple-card{
+    height: 550px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+     background: url(Images/apple-card.jpeg) center/cover no-repeat;
+     margin-right: 10px;
+}
+
+#apple-card #title{
+    margin-top: 40px;
+}
+#apple-card #title h3{
+    font-size: 20px;
+    width: 30%;
+    display: inline-block;
+    margin-bottom: 14px;
+}
+#apple-card #title-links a{
+    font-size: 16px;
+}
+#apple-tv{
+    height: 550px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+     background: url(Images/foundation.jpeg) center/cover no-repeat;
+}
+
+#apple-tv #title{
+    margin-top: 40px;
+    
+}
+#apple-tv #title div h3{
+    margin-top: 290px;
+}
+
+#stream{
+    margin-top: 50px;
+}
+#apple-tv #title #stream a{
+    color: #0071e3;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 10px;
+    
+
+
+}
+#apple-tv #title #stream a:hover{
+    text-decoration: underline;
+}
+#footer{
+    width:100%;
+    height: 810px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+#footer-wrap{
+    width:970px;
+
+}
+#footer-wrap ul{
+    font-size: 12px;
+    list-style: none;
+    color: #86868b;
+    border-bottom: 1px solid #d6d6d6;
+
+
+}
+#footer-wrap ul li{
+    margin: 15px 0;
+    letter-spacing: 0.1px;
+    
+}
+#footer-links-mobile{
+    display: none;
+}
+#footer-links{
+    width: 100%;
+    display: flex;
+
+}
+#footer-links-column{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+#footer-links-column-title{
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 18px;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+
+}
+#footer-links-column a{
+    font-size: 12px;
+    margin-bottom: 12px;
+    color: #86868b;
+    text-decoration: none;
+
+}
+#more-ways{
+    font-size: 13px;
+    color: #86868b;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d6d6d6;
+    margin-top: 20px;
+
+}
+#more-ways a{
+    color: #0071e3;
+    text-decoration: none;
+}
+#copyright-mobile{
+    display: none;
+}
+#copyright{
+    font-size: 13px;
+    color: #86868b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+#copyright #links a{
+   text-decoration: none;
+   color: #86868b;
+   border-right: 1px solid #d6d6d6;
+   margin-left: 10px;
+   padding-right:5px ;
+}
+#copyright #links a:nth-of-type(4){
+    border: none;
+}
+#copyright #links a:hover{
+    text-decoration: underline;
+}
+#footer a:hover{
+    text-decoration: underline;
+}
+@media (max-width:1484px){
+    #iphone-13-pro{
+    height: 610px;
+    width: 100%;
+    margin-bottom: -30px;
+    background: url(Images/iphone-13-pro.jpeg) center/cover no-repeat;
+    background-position-y: -40px;
+   
+}
+    #iphone-13{
+        height: 620px;
+       
+    }
+   
+    #back-to-school #title h4{
+        width: 63%;
+    }
+    #apple-fitness #title h3{
+        width: 43%;
+    }
+    #apple-card #title h3{
+        width: 37%;
+    }
+}
+
+
+@media (max-width:1243px){
+     
+    #back-to-school #title h4{
+        width: 69%;
+    }
+    #apple-fitness #title h3{
+        width: 49%;
+    }
+    #apple-card #title h3{
+        width: 41%;
+    }
+   
+
+}
+@media (max-width:1130px){
+    #navbar-desktop ul{
+        width: 90%;
+       
+    }
+    #back-to-school #title h4{
+        width: 75%;
+    }
+    #apple-fitness #title h3{
+        width: 55%;
+    }
+    #apple-card #title h3{
+        width: 46%;
+    }
+
+}
+@media (max-width:1060px){
+    #navbar-desktop ul{
+        width: 94%;
+       
+    }
+    #info{
+        height: 66px;
+    }
+    #info p {
+        width: 54%;
+        display: inline-block;
+        line-height: 20px;
+    }
+
+    #iphone-13-pro{
+        background: url(Images/iphone-13-pro-mobile.jpg) center/cover no-repeat;
+        background-position-y:-100px ;
+        margin-bottom: -60px;
+    }
+    #imac{
+        background: url(Images/imac-mobile.jpg) center/cover no-repeat;
+       
+    }
+    #back-to-school, #ipad-mini {
+        height: 480px;
+    }
+    #apple-card #title h3{
+        width: 49%;
+        
+
+    }
+    #apple-tv{
+        background: url(Images/foundation-mobile.jpg) center/cover no-repeat;
+        
+    }
+     
+     
+    #back-to-school #title h4{
+        font-size: 30px;
+        width: 77%;
+    }
+     #apple-fitness #title h3{
+        width: 57%;
+        
+    }
+   #apple-tv #title div h3{
+       margin-top: 270px;
+       
+   }
+    #apple-tv #title div img{
+        transform: scale(0.7);
+     
+    }
+    #footer-wrap{
+        width: 850px;
+
+    }
+  
+    
+     #footer-links-column:nth-of-type(1){
+         margin-right: -40px;
+     }
+    #footer-links-column:nth-of-type(2){
+        margin-right: -50px;
+    }
+    #footer-links-column:nth-of-type(3){
+        margin-right: -20px;
+    }
+     #footer-links-column:nth-of-type(5){
+         margin-right: -50px;
+     }
+    
+
+    
+       
+        
+
+}
+@media (max-width:920px){
+      
+     #navbar-desktop ul{
+        width: 94%;
+       
+    }
+     #info p {
+        width: 63%;
+        
+    }
+    #apple-fitness #title h3{
+        width:71%;
+    }
+    #apple-card #title h3{
+        width: 60%;
+        
+    }
+    #apple-tv #title div img{
+        transform: scale(0.7);
+        position: relative;
+        right: 20px;
+     
+    }
+    #footer{
+        margin-bottom: 100px;
+    }
+    #footer-wrap{
+        width:700px;
+    }
+     #footer-links-column:nth-of-type(1){
+         margin-right: -40px;
+     }
+    #footer-links-column:nth-of-type(2){
+        margin-right: -50px;
+    }
+    #footer-links-column:nth-of-type(3){
+        margin-right: 0px;
+        
+    }
+    #footer-links-column:nth-of-type(4){
+        margin-right: -20px;
+    }
+
+     #footer-links-column:nth-of-type(5){
+         margin-right: -20px;
+     }
+     #copyright{
+         display: none;
+     }
+     #copyright-mobile{
+         display: flex;
+         flex-direction: column;
+         font-size: 12.5px;
+         color: #86868b;
+         margin-top: 10px;
+
+     }
+     #copyright-mobile div:first-of-type{
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         margin-bottom: 10px;
+     }
+    
+    #copyright-mobile #links a{
+        text-decoration: none;
+        color: #86868b;
+        border-right: 1px solid #d6d6d6;
+        padding-right: 10px;
+  
+    }
+    #copyright-mobile #links a:nth-of-type(4){
+        border: none;
+    }
+    #copyright-mobile #links a:hover{
+        text-decoration: underline;
+    }
+
+}
+@media (max-width:780px){
+    
+    header #navbar-desktop{
+        visibility: hidden;
+        height: 0;
+    }
+   
+   header #navbar-mobile{
+        display: flex;
+        width: 100%;
+        height: 45px;
+        background: rgba(0, 0, 0,0.8);
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 1000;
+        backdrop-filter: blur(2rem);
+    }
+    header #navbar-mobile #nav-list-mobile{
+        height: 100%;
+        width: 100%;
+        max-width: 650px;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        margin-left: 40px;
+        transition: background-color 0.36s cubic-bezier(0.32,0.08,0.24,1), height 0.56s cubic-bezier(0.32,0.08,0.24,1) ;
+
+    }
+     #info p{
+        width: 69%;
+    }
+    
+    #nav-list{
+        display: none;
+    }
+
+    
+    #nav-list-mobile li{
+        list-style: none;
+
+    }
+    #mobile-menu{
+        height: 44px;
+        width: 16px;
+        margin-top: 30px;
+        margin-left: -25px;
+        
+        
+    }
+    #bag{
+        position: relative;
+        left: 30px;
+        
+
+    }
+    .line{
+        background-color: white;
+        width: 20px;
+        height: 1px;
+        position: absolute;
+        transition: 0.3192s  cubic-bezier(0.04, 0.04, 0.12, 0.96);
+    }
+    
+    .line-bottom{
+        margin-top: 10px;
+       
+    }
+
+    .active #mobile-menu{
+        margin-top: 20px;
+    }
+    .active .line-top{
+        margin-top: 10px;
+        transform: rotate(45deg);
+        transition: transform 0.3192s .1s cubic-bezier(0.04, 0.04, 0.12, 0.96);
+
+    }
+    .active .line-bottom{
+        transform: rotate(-45deg);
+        transition: transform 0.3192s .1s cubic-bezier(0.04, 0.04, 0.12, 0.96);
+
+    }
+   
+     .active #navbar-desktop{
+        background-color: black;
+        height: 100%;
+        visibility: visible;
+        transition: height .56s cubic-bezier(0.32,0.08,0.24,1), background-color 0.36s cubic-bezier(0.32,0.08,0.24,1);
+
+
+        
+       
+        
+    }
+
+    #navbar-desktop ul{
+        display: none;
+    }
+    #nav-list{
+         position: fixed;
+         top: -20px;
+         left: 30px;
+         height: 0;
+         display: block;
+         padding:4.5rem 3rem ;
+         opacity: 0;
+         visibility: hidden;
+         transition: opacity 0.3s;
+        
+
+    }
+    
+    #search{
+        width: 575px;
+        height: 40px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        background-color: rgb(29, 29, 31);
+        border: none;
+        padding-left: 20px;
+        font-size: 17px;
+      
+        
+        
+        
+    }
+   
+    #nav-list li a{
+        
+         color: #AEB0B0;
+         text-decoration: none;
+         letter-spacing: 1px;
+         font-weight: lighter;
+         font-size: 17px;
+
+         
+    }
+    #nav-list li a:hover{
+        color: white;
+    }
+     #nav-list li{
+          margin-bottom: 10px;
+          border-bottom: 1px solid rgba(245, 245, 247,0.2);
+           list-style: none;
+           padding-bottom: 14px;
+
+
+     }
+     #nav-list li:nth-of-type(1){
+         margin-top: 20px;
+     }
+    #border{
+        background-color: rgba(245, 245, 247,0.2);
+        width: 100em;
+        height: 1px;
+        position: absolute;
+        left: -100px;
+        
+    }
+     #nav-list li:nth-of-type(8){
+         border: none;
+         
+         
+     }
+    .active #nav-list{
+        width: 90%;
+        height: 100vh;
+        opacity: 1;
+        visibility: visible;
+        margin-bottom: 50px;
+
+    }
+    .active #nav-list li{
+        animation: fadeIn 1s ease-in ;
+
+    }
+    
+    .active #bag{
+       opacity: 0;
+       transition: opacity 0.3s;
+    }
+    @keyframes fadeIn{
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+
+    }
+     #apple-fitness #title h3{
+        width: 75%;
+    }
+    #apple-card #title h3{
+        width: 70%;
+    }
+    #footer-links{
+        display: none;
+    }
+    #footer-links-mobile{
+        display: flex;
+        width: 100%;
+        margin-top: 30px;
+        
+                
+    }
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    input[type="checkbox"]:checked+#column-section #product-list {
+       transition: transform 300ms ease, -webkit-transform 300ms ease;
+       visibility: visible;
+       position: static;
+       transform: none;
+    }
+
+    input[type="checkbox"]:checked+#column-section h3::after {
+       transform: rotate(45deg) scale(1.08);
+    }
+    
+    #footer-links-column {
+       width: 100%;
+    }
+  
+  #item {
+    border-bottom: 1px solid #d6d6d6;
+    width: 50em;
+    } 
+    
+  #item h3 {
+    padding: 10px 0;
+    margin: 0;
+    cursor: pointer;
+    color: #646666;
+    font-size: 12px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 6px;
+    font-weight: lighter;
+    
+  }
+  
+  #item h3::after {
+    content: '+';
+    position: relative;
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: -2px;
+    margin-right: 8px;
+    transition: transform .3s ease
+  }
+  
+  #product-list {
+    visibility: hidden;
+    position: absolute;
+    transform: translateY(-100px);
+    z-index: 1;
+    padding: 5px 0 16px 0;
+  }
+  
+  #product-list li {
+    margin: 0;
+  }
+  
+  #product-list a {
+    display: block;
+    padding: 6px 14px;
+  }
+  
+  .footer-links-column {
+    overflow: hidden;
+  }
+
+
+     
+
+}
+@media (max-width:740px){
+   
+    #info{
+        height: 88px;
+    }
+    #info p{
+        width: 51%;
+        padding-bottom: 10px;
+    }
+    #bag{
+        position:relative;
+        left: -10px;
+    }
+    #card-0, #card-1, #card-2, #card-3{
+        flex-direction: column;
+    }
+    #imac{
+        height: 600px;
+        margin-bottom: 10px;
+
+    }
+    #back-to-school #title h4{
+        width: 50%;
+    }
+    #apple-fitness #title h3{
+        width: 44%;
+    }
+    #apple-card #title h3{
+        width: 40%;
+    }
+    #iphone-13{
+    background: url(Images/iphone-13-mobile.jpg) center/cover no-repeat;
+   }
+
+   #iphone-13 #title{
+    position: relative;
+    top: 230px;
+    text-align: center;
+    z-index: 3;
+    color: white;
+   }
+   #iphone-13 #title h1{
+    font-size: 36px;
+
+   }
+   #iphone-13 #title h3{
+    font-size: 20px;
+
+   }
+   #iphone-13 #title-links{
+    position: relative;
+    top: 230px; 
+    text-align: center;
+   }
+   #iphone-13 #title-links a{
+    font-size: 18px;
+   }
+   #apple-watch #title h3{
+    font-size: 20px;
+
+   }
+   #apple-watch #title h4{
+    font-size: 14px;
+
+   }
+   #apple-watch #title-links a{
+    font-size: 18px;
+
+   }
+   #footer-wrap ul{
+    width: 90%;
+    display: inline-block;
+    margin-left: 30px;
+   }
+   #item {
+    width: 44em;
+    margin-left: 30px;
+   } 
+   #more-ways{
+    margin-left: 30px;
+   }
+
+   
+
+#copyright-mobile{
+         margin-left:30px ;
+         margin-right: 30px;
+
+    }
+    
+   
+
+
+
+
+}
+@media (max-width:680px){
+     #nav-list{
+         padding:4.5rem 0rem ;
+    }
+   
+    
+    #info{
+        height: 96px;
+    }
+    #info p{
+        width: 55%;
+    }
+    #footer-wrap ul{
+    width: 90%;
+    display: inline-block;
+    margin-left: 30px;
+   
+
+
+   }
+   #item {
+    width: 40em;
+    margin-left: 30px;
+   } 
+   #more-ways{
+    margin-left: 30px;
+   } 
+   #copyright-mobile{
+         margin-left:30px ;
+        
+
+    }
+
+}
+@media (max-width:632px){
+    #search{
+        width: 530px;      
+    }
+    #info{
+        height: 90px;
+    }
+    #info p{
+        width: 60%;
+    }
+     #footer-wrap ul{
+    width: 90%;
+    display: inline-block;
+    margin-left: 30px;
+   
+
+
+   }
+   #item {
+    width: 38em;
+    margin-left: 30px;
+   } 
+   #more-ways{
+    margin-left: 30px;
+   } 
+   #copyright-mobile{
+         margin-left:30px ;
+        
+
+    }
+
+}
+@media (max-width:595px){
+    #search{
+        width: 480px;      
+    }
+    #info p{
+        width: 66%;
+    }
+    #item {
+    width: 36.5em;
+    margin-left: 30px;
+   } 
+}
+@media (max-width: 550px){
+    #search{
+        width: 440px;      
+    }
+    #info p{
+        width: 70%;
+    }
+      #footer-wrap ul{
+    width: 90%;
+    display: inline-block;
+    margin-left: 30px;
+   
+
+
+   }
+   #item {
+    width: 32em;
+    margin-left: 30px;
+   } 
+   #more-ways{
+    margin-left: 30px;
+    width: 86%;
+   } 
+   #copyright-mobile{
+         margin-left:30px ;
+        
+
+    }
+   
+
+}
+ @media(max-width:415px){
+     #search{
+        width: 430px;      
+    }
+    #info{
+        height: 102px;
+    }
+    #info p{
+        width: 70%;
+    }
+    #footer-wrap ul{
+    width: 90%;
+    display: inline-block;
+    margin-left: 30px;
+   
+
+
+   }
+   #item {
+    width: 32em;
+    margin-left: 30px;
+   } 
+   #more-ways{
+    margin-left: 30px;
+   } 
+   #copyright-mobile{
+         margin-left:30px ;
+        
+
+    }
+
+ }
+
+       
+             
+
